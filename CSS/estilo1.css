@@ -1,0 +1,210 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgray;
+}
+a:link{
+    text-decoration: none;
+}
+nav{
+    position: sticky;
+    z-index: 1;
+    top: 5px;
+    background-color: orange;
+    border: solid 1px black;
+    border-radius: 8px;
+    height: 75px;
+}
+nav ul{
+    margin-left: 25%;
+}
+nav li{
+    border-radius: 10px;
+    border: solid black 1px;
+    background-color: aquamarine;
+    padding: 5px;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.5rem;  
+}
+nav div{
+    padding: 10px;
+    border: 1px black solid;
+    position: relative;
+    right: 100px;
+    display: inline;
+    font-size: 2rem;
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+nav img{
+    margin-left: 100px;
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+}
+nav li:hover, nav a:hover{
+    color: orangered;
+    background-color: cornflowerblue;
+}
+h1,h3{
+    text-align: center;
+    text-decoration: underline;
+    color: orangered;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    white-space: nowrap;
+    overflow: auto;
+}
+.contenedor img{
+    transition: opacity 0.3s ease;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 265px;
+    border-radius: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    border: solid 1px black;
+    white-space: nowrap;
+}
+.contenedor img:hover{
+    opacity: 0.7;
+}
+#pelis {    
+    margin:0 auto;
+    width: 70%;
+    height: 700px;
+    overflow: auto;
+}
+#pelis img{
+    transition: opacity 0.3s ease;
+    border-radius: 5%;
+    padding: 5px;
+    width: 300px;
+    height: 320px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#pelis img:hover{
+    opacity: 0.7;
+}
+#formulario{
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+#preguntas{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+    font-size: 1.2rem;
+}
+#preguntas h2{
+    color: brown;
+}
+#unapeli{
+    border: 1px lightgray solid;
+    width: 70%;
+    margin: 0 auto;
+}
+#unapeli img{
+    transition: box-shadow 0.3s ease;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border-radius: 5%;
+    margin-right: 50px;
+    border-bottom: 100px;
+    width: 270px;
+}
+#unapeli img:hover{
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(6, 2, 238, 0.7);
+}
+#unapeli .lista{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#unapeli li{
+    list-style-type:none;
+    font-size: 1.2rem;
+}
+#unapeli article{
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 1.1rem;
+}
+#unapeli article h3{
+    text-align: left;
+    text-decoration: underline;
+}
+#unaserie {
+    border: 1px lightgray solid;
+    width: 70%;
+    margin: 0 auto;
+}
+#unaserie img{
+    transition: box-shadow 0.3s ease;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border-radius: 5%;
+    margin-right: 50px;
+    border-bottom: 100px;
+    width: 270px;
+}
+#unaserie img:hover{
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(238, 88, 2, 0.7);
+}
+#unaserie h2{
+    color: orangered;
+    text-decoration: underline;
+}
+#unaserie .titulo{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#unaserie .titulo ul li{
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#unaserie .tabla{    
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 1.3rem;
+}
+#unaserie table{
+    background-color: black;
+}
+#unaserie th{
+   background-color: aliceblue;
+}
+#unaserie td{
+    text-align: center;
+    background-color: rgb(255, 196, 0);
+ }
+footer img{
+    margin-left: 150px;
+    width: 80px;
+    border-radius: 50%;
+}
+footer a{
+    transition: color 0.5s ease;
+    color: cornflowerblue;
+    margin-left:10%;
+    font-size: 1.5rem;
+}
+footer a:hover{
+    color: orangered;
+    
+}
